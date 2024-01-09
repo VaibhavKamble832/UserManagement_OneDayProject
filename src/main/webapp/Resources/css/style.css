@@ -1,0 +1,73 @@
+@charset "ISO-8859-1";
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#leftnav{
+	width: 200px;
+	height: 100%;
+	position: fixed;
+	background-color: #363062;
+	text-align: center;
+}
+
+#leftnav h1{
+	color: #DDE6ED;
+	border-bottom: 4px solid #DDE6ED;	
+	padding: 20px 0;
+}
+
+#leftnav a{
+	color: #DDE6ED;
+	text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	margin: 30px 0;
+	font-size: 30px;
+}
+
+#main{
+	text-align: center;
+}
+#main h1{
+	font-size: 40px;
+	color: #363062;
+	padding: 40px;
+}
+
+#main form{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#main form input{
+	font-size: 20px;
+	padding: 10px 30px;
+	border: none;
+	outline: none;
+	background-color: #DDE6ED;
+	margin-bottom: 20px;
+	color: #363062;
+	border-radius: 10px;
+	
+}
+#main form input::placeholder{
+	color: #363062;
+	opacity: 0.7;
+}
+
+#main table th{
+	background-color: #363062;
+	color: #DDE6ED;
+}
+#main table tr:nth-child(odd){
+	background-color: rgb(233, 230, 253);
+}
+#main table tr th,td{
+	padding: 10px;
+	font-size: 20px;
+	
+}
+
